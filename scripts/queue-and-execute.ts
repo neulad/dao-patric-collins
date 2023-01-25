@@ -9,6 +9,8 @@ async function main() {
     ethers.utils.toUtf8Bytes('Change value to 1000!')
   );
 
+  console.log(`Box value: ${await box.getValue()}`);
+
   await myGovernor.queue([box.address], [0], [boxCalldata], hashedDescription);
 
   await network.provider.send('evm_increaseTime', ['0xe10']);
