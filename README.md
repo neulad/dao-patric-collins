@@ -2,7 +2,7 @@
 ## About The Project
 *This project was created for fun for learning purposes, never use it on production, it's raw and not tested at all!*
 
-This is an implementation from the Patric Collins' (video)[https://www.youtube.com/watch?v=AhJtmUqhAqg&t=4160s] on DAOs. I used OpenZeppelin as
+This is an implementation from the Patric Collins' video](https://www.youtube.com/watch?v=AhJtmUqhAqg&t=4160s) on DAOs. I used OpenZeppelin as
 a template for creating TimeLocker, Erc20Votes and Governor.
 
 <!-- GETTING STARTED -->
