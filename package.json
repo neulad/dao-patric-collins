@@ -1,0 +1,24 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neulad/dao-patric-collins.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neulad/dao-patric-collins/issues"
+  },
+  "homepage": "https://github.com/neulad/dao-patric-collins#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@openzeppelin/contracts": "^4.8.1",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "hardhat": "^2.12.6",
+    "hardhat-deploy": "^0.11.22"
+  },
+  "overrides": {
+    "@nomicfoundation/hardhat-toolbox": {
+      "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers"
+    }
+  }
+}
